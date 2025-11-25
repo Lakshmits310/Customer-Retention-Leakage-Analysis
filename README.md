@@ -1,12 +1,6 @@
 # 💰 Customer Retention Leakage Analysis: Quantifying 65% Month-One Churn
 
-## 🎯 Project Status & Executive Summary
-
-| Status | Domain Focus | Primary Technique | Deliverable |
-| :--- | :--- | :--- | :--- |
-| **Completed** | E-commerce / Product Strategy | **Cohort Analysis** using Advanced SQL (CTEs) | Strategic Recommendation to stabilize LTV. |
-
-**Executive Summary:**
+## Executive Summary
 This project leveraged **SQL-based Cohort Analysis** on a transactional dataset (805K cleaned records) to isolate the precise point of customer churn. Analysis revealed a **critical 55%–65% customer leakage (churn) between the first and second month (M0 to M1)** across all cohorts. The analysis shifts focus from generic acquisition efforts to targeted **Day 7/Day 10 onboarding interventions** to increase customer lifetime value (LTV).
 
 ---
@@ -63,4 +57,5 @@ Based on the data showing peak failure between M0 and M1:
 * `02_Processed_Data/`: Contains the cleaned data and intermediate analytical results (e.g., `cohort_retention_data.csv`).
 * `03_SQL_Scripts/`: SQL queries used for the cohort model.
 * `04_Python_Notebooks/`: All exploratory and visualization notebooks (`01_Data_Prep.ipynb`, etc.).
+
 * `05_Insights_Reports/`: Final visualization output (`retention_heatmap.png`).
